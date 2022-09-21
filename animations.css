@@ -39,13 +39,33 @@
 	30% {
 		rotate: 0deg;
 	}
-	
+
 	100% {
 
 	}
 }
 
+@keyframes bater {
+	0% {
+		transform: translateX(0px);
+	}
 
+	25% {
+		transform: translateX(100px);
+	}
+	
+	50% {
+		transform: translateX(-100px);
+	}
+	75% {
+		transform: translateX(100px);
+		
+	}
+	100% {
+		transform: translateX(0px);
+
+	}
+}
 
 .float {
     animation: float 6s ease-in-out infinite;
@@ -56,4 +76,9 @@
 
 .bounce {
 	animation: bounce 7s ease-in-out infinite;
+}
+
+.bater {
+	animation: bater 7s ease-in-out infinite;
+
 }
