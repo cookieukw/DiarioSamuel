@@ -1,2 +1,3 @@
 # DiarioSamuel
-I work for a subject at my school
+
+An assignment for a subject at my school
