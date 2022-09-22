@@ -77,11 +77,15 @@ p {
   padding-top: 6px;
   text-align: justify;
   height: 100%;
-  width: 70%;
+  width: 90%;
 }
 
-.txt2 {
-  display: inline;
+.txtd_horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: justify;
+  column-gap: 2rem;
 }
 
 
@@ -90,7 +94,9 @@ p {
   z-index: 1;
   position: absolute;
 }
-#content::before {
-  color: blueviolet;
 
+@media (min-width:100px) {
+  .text_horizontal {
+    flex-direction: column;
+  }
 }
