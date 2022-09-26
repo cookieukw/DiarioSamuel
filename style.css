@@ -93,6 +93,8 @@ p {
   padding: 4vh;
   z-index: 1;
   position: absolute;
+  padding-left: 30vw;
+  padding-right: 30vw;
 }
 
 @media (min-width:100px) {
