@@ -12,6 +12,8 @@
 }
 
 .background {
+    background-image: url("bg.jpg");
+    background-size: cover;
     z-index: 0;
     position: fixed;
     width: 100vw;
